@@ -61,7 +61,7 @@ ToolBar {
             iconSource: "qrc:/images/alert.svg"
             text: qsTranslate("RDM","Report issue")
             tooltip: qsTranslate("RDM","Report issue")
-            onClicked: Qt.openUrlExternally("https://github.com/uglide/RedisDesktopManager/issues")
+            onClicked: Qt.openUrlExternally("https://github.com/tekintian/RedisDesktopManager/issues")
         }
 
         ToolButton {
@@ -72,24 +72,17 @@ ToolBar {
         }
 
         ToolButton {
-            iconSource: "qrc:/images/telegram.svg"
-            text: qsTranslate("RDM","Join Telegram Chat")
-            tooltip: qsTranslate("RDM","Join Telegram Chat")
-            onClicked: Qt.openUrlExternally("https://t.me/RedisDesktopManager")
-        }
-
-        ToolButton {
             iconSource: "qrc:/images/twi.svg"
             text: qsTranslate("RDM","Follow")
             tooltip: qsTranslate("RDM","Follow")
-            onClicked: Qt.openUrlExternally("https://twitter.com/RedisDesktop")
+            onClicked: Qt.openUrlExternally("https://twitter.com/tekintian")
         }
 
         ToolButton {
             iconSource: "qrc:/images/github.svg"
             text: qsTranslate("RDM","Star on GitHub!")
             tooltip: qsTranslate("RDM","Star on GitHub!")
-            onClicked: Qt.openUrlExternally("https://github.com/uglide/RedisDesktopManager")
+            onClicked: Qt.openUrlExternally("https://github.com/tekintian/RedisDesktopManager")
         }
 
         Item { Layout.fillWidth: true }

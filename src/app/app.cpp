@@ -44,7 +44,7 @@ Application::Application(int& argc, char** argv)
   initAppFonts();
   initRedisClient();
 #ifndef RDM_APPSTORE
-  initUpdater();
+//  initUpdater(); //禁用升级检测
 #endif
   installTranslator();
   initPython();
