@@ -44,7 +44,7 @@ Application::Application(int& argc, char** argv)
   initAppFonts();
   initRedisClient();
 #ifndef RDM_APPSTORE
-  initUpdater();
+//  initUpdater(); //禁用自动更新检测
 #endif
   installTranslator();
   initPython();
@@ -144,7 +144,7 @@ void Application::initModels() {
 void Application::initAppInfo() {
   setApplicationName("RedisDesktopManager");
   setApplicationVersion(QString(RDM_VERSION));
-  setOrganizationDomain("redisdesktop.com");
+  setOrganizationDomain("tekin.cn");
   setOrganizationName("redisdesktop");
   setWindowIcon(QIcon(":/images/logo.png"));
 }

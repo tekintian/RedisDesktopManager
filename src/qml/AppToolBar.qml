@@ -67,7 +67,7 @@ ToolBar {
             implicitWidth: 40
             iconSource: "qrc:/images/alert.svg"            
             tooltip: qsTranslate("RDM","Report issue")
-            onClicked: Qt.openUrlExternally("https://github.com/uglide/RedisDesktopManager/issues")
+            onClicked: Qt.openUrlExternally("https://github.com/tekintian/RedisDesktopManager/issues")
         }
 
         BetterButton {
@@ -77,25 +77,25 @@ ToolBar {
             onClicked: Qt.openUrlExternally("http://docs.redisdesktop.com/en/latest/")
         }
 
-        BetterButton {
-            implicitWidth: 40
-            iconSource: "qrc:/images/telegram.svg"            
-            tooltip: qsTranslate("RDM","Join Telegram Chat")
-            onClicked: Qt.openUrlExternally("https://t.me/RedisDesktopManager")
-        }
+//        BetterButton {
+//            implicitWidth: 40
+//            iconSource: "qrc:/images/telegram.svg"
+//            tooltip: qsTranslate("RDM","Join Telegram Chat")
+//            onClicked: Qt.openUrlExternally("https://t.me/RedisDesktopManager")
+//        }
 
         BetterButton {
             implicitWidth: 40
             iconSource: "qrc:/images/twi.svg"            
             tooltip: qsTranslate("RDM","Follow")
-            onClicked: Qt.openUrlExternally("https://twitter.com/RedisDesktop")
+            onClicked: Qt.openUrlExternally("https://twitter.com/tekintian")
         }
 
         BetterButton {
             implicitWidth: 40
             iconSource: "qrc:/images/github.svg"            
             tooltip: qsTranslate("RDM","Star on GitHub!")
-            onClicked: Qt.openUrlExternally("https://github.com/uglide/RedisDesktopManager")
+            onClicked: Qt.openUrlExternally("https://github.com/tekintian/RedisDesktopManager")
         }
 
         Item { Layout.fillWidth: true }
